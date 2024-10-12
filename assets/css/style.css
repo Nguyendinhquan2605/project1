@@ -281,3 +281,57 @@ header .btn-signup {
 .content-block .stats strong:nth-child(2) {
   margin-left: 28px;
 }
+
+/* Popular */
+.popular {
+  padding: 65px 0;
+  margin-top: 135px;
+}
+
+.popular-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular .heading-lv2 {
+  color: #171100;
+  font-family: Sen;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px; /* 126.316% */
+  letter-spacing: -0.76px;
+}
+
+.popular .desc {
+  margin-top: 16px;
+  width: 458px;
+  color: #5f5b53;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+
+.popular-top .control {
+  display: flex;
+  gap: 18px;
+}
+
+.popular-top .control-btn {
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #ffb900;
+  color: #ffb900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.control-btn:hover {
+  background: #ffb900;
+  color: #fff;
+  cursor: pointer;
+}
