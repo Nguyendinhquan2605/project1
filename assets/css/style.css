@@ -441,8 +441,14 @@ header .btn-signup {
   background: #2e2100;
 }
 
+/* .feedback-list {
+  display: flex;
+  overflow: hidden;
+} */
+
 .feedback-item {
   display: flex;
+  /* flex-shrink: 0; */
 }
 
 .feedback-item .avatar {
